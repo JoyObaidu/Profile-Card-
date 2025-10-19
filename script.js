@@ -1,4 +1,4 @@
-// JavaScript
+
 const timeEl = document.querySelector('[data-testid="test-user-time"]');
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
