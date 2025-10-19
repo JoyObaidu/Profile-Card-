@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card — Joy Obaidu</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="profile-card" data-testid="test-profile-card">
+      <button class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+
+      <figure class="profile-image">
+        <img
+          src="./profileImg.png"
+          alt="User image"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <article class="details">
+        <section class="profile-info">
+          <h2 data-testid="test-user-name">Joy Obaidu</h2>
+          <p data-testid="test-user-bio">
+            Frontend Developer & Architectural Designer — passionate about
+            creating experiences where design meets emotion.
+          </p>
+          <p class="time" data-testid="test-user-time"></p>
+        </section>
+
+        <section class="character">
+          <div><b>Hobby:</b> <span>Music</span></div>
+          <div><b>Dislike:</b> <span>Cluttered Spaces</span></div>
+        </section>
+
+        <nav class="social-links" data-testid="test-user-social-links">
+          <ul>
+            <li>
+              <a
+                href="#"
+                data-testid="test-user-social-twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/joy-obaidu"
+                data-testid="test-user-social-linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/JoyObaidu"
+                data-testid="test-user-social-github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button type="button" class="hire-btn">Hire Me</button>
+      </article>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/de3ac0dfbf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
